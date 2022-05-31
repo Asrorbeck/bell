@@ -1,0 +1,115 @@
+/* inter-regular - latin */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/inter-v11-latin-regular.woff2') format('woff2'),url('../fonts/inter-v11-latin-regular.woff') format('woff'); 
+  }
+  /* inter-700 - latin */
+  @font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/inter-v11-latin-700.woff2') format('woff2'),url('../fonts/inter-v11-latin-700.woff') format('woff'); 
+  }
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #07215A;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    max-width: 1330px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.header__link {
+    text-decoration: none;
+    position: relative;
+}
+
+.header__img-link {
+    position: absolute;
+    transform: translate(-50%);
+}
+
+.links__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.links__heading {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    color: #FFFFFF;
+    margin: 0;
+    margin-top: 360px;
+    margin-bottom: 135px;
+}
+
+.links__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 59px;
+}
+
+.main__link {
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 10px;
+    width: 564px;
+    height: 156px;
+    border: 2px solid #fff;
+    transition: 0.3s ease;
+    margin-right: 162px;
+    box-shadow: 3px 24px 238px rgba(0, 0, 0, 0.5);
+}
+
+.main__link:last-child {
+    margin-right: 0;
+}
+
+.main__link:hover {
+    background-color: #fff;
+    color: #07215A;
+    transition: 0.3s ease;
+}
+
+.main__link:active {
+    opacity: 0.5;
+}
